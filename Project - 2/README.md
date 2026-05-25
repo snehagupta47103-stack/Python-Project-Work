@@ -42,21 +42,6 @@ Here is exactly how each part of the project works behind the scenes:
 
 ---
 
-## 💻 SAMPLE OUTPUT
-### 🔹 Pattern Generator (If you input 4)
-
-* 
-* * 
-* * * 
-* * * *
-* * * * *
-
-### 🔹 Number Analyzer (If range is 1 to 3)
-
-Number 1 is Odd;
-Number 2 is Even;
-Number 3 is Odd.
-
 ## 🚀 HOW TO RUN PROJECT
 
 Follow these quick steps to get the program running on your computer:
