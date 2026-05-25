@@ -58,11 +58,15 @@ Make sure you have Python installed on your system. You can download it from the
 4. **Run the Script:** Type the command **python main.py** and press Enter.
 
 # CODE
+
+---
+
 <img width="724" height="897" alt="Screenshot 2026-05-25 195425" src="https://github.com/user-attachments/assets/3dcb5913-ea34-442f-916d-635e4f922e05" />
 <img width="835" height="352" alt="Screenshot 2026-05-25 195444" src="https://github.com/user-attachments/assets/c6f0be81-082f-450e-9f45-9f1bdc5fdd68" />
 
 # OUTPUT
-_________________________________________________________________________________________________________________________________________________________
+
+---
 
 <img width="794" height="623" alt="Screenshot 2026-05-23 214926" src="https://github.com/user-attachments/assets/89316afd-ec9c-4f1f-b29e-3327cc560186" />
 
