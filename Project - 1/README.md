@@ -1,11 +1,11 @@
-# Project - 1
+# PROJECT - 1
 This is my Python project.
-# 📋 Personal Data Collector
+# 📋 PERSONAL DATA COLLECTOR
 Welcome to the Personal Data Collector! 🎉 This is a clean, interactive, terminal-based Python application designed to safely gather user inputs, process them instantly, and reveal exactly how Python handles data behind the scenes.
 
 It is a fantastic educational tool for seeing how a computer reads your text, calculates numbers, converts data formats, and even tracks memory storage in real time! It is super lightweight, fast, and easy to run. 🚀
 
-# ✨ Features
+# ✨ FEATURES
 📥 Interactive Inputs: Seamlessly collects your name, age, height, and favorite number right from the console.
 
 🧠 Smart Calculations: Automatically estimates your birth year by performing math on the age you provide.
@@ -14,7 +14,7 @@ It is a fantastic educational tool for seeing how a computer reads your text, ca
 
 🔢 Smart Rounding: Safely converts decimal heights into whole numbers to show data conversion and truncation in action.
 
-# 🔍 Detailed Data & Code Breakdown
+# 🔍 DETAILED DATA & CODE BREAKDOWN
 The program collects four specific pieces of information from you. Here is exactly what the code does with each data point step-by-step:
 
 👤 The Name Input (name)
@@ -32,7 +32,7 @@ Just like your age, your favorite number is saved as a whole integer (int). By p
 🧠 Memory Tracking (id())
 Every time the program prints out a long string of numbers at the end, it is showing you the id(). This is the literal, unique digital address of where that specific piece of information is being held inside your computer's RAM while the script runs!
 
-# 🚀 How to Run the Code
+# 🚀 HOW TO RUN THE CODE
 Getting this program up and running on your computer is incredibly simple! Just follow these quick steps:
 
 🖥️ Step 1: Open Your Terminal
@@ -43,8 +43,9 @@ Make sure you have Python installed on your machine. You can quickly double-chec
 
 🏃‍♂️ Step 3: Launch the Script
 Once you are in the correct folder, simply type python main.py (or use the exact name of your script file, like python data_collector.py) and press enter. The application will instantly boot up right inside your terminal, welcoming you to the data collector and guiding you through the prompts step-by-step!
-# Code
+
+# CODE
 <img width="1012" height="432" alt="Screenshot 2026-05-25 190453" src="https://github.com/user-attachments/assets/7356b2f8-97ae-43da-855f-e230c13e6dd9" />
 
-<img width="757" h<img width="757" height="291" alt="Screenshot 2026-05-23 132901" src="https://github.com/user-attachments/assets/5a1702eb01f4" />
-eight="291" alt="Screenshot 2026-05-23 132901" src="https://github.com/user-attachments/assets/f04343ec-4c4d-4ff5-ba43-87b835da2f77" />
+# OUTPUT 
+<img width="757" height="291" alt="Screenshot 2026-05-23 132901" src="https://github.com/user-attachments/assets/c41d84f7-8998-4450-aa86-b9d4f76947c6" />
