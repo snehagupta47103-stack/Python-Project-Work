@@ -180,10 +180,21 @@ Developed as a Python learning project to practice:
 
 ---
 
-## 📜 OUTPUT 
+## 📜 CODE 
 <img width="666" height="871" alt="Screenshot 2026-06-06 113343" src="https://github.com/user-attachments/assets/28de66bf-43da-466b-9eb6-3cbae2efb8ad" />
 <img width="449" height="807" alt="Screenshot 2026-06-06 113517" src="https://github.com/user-attachments/assets/dfa5a60c-10d4-408f-a70b-2e75c6b53f3b" />
 <img width="497" height="800" alt="Screenshot 2026-06-06 113618" src="https://github.com/user-attachments/assets/b27a21ad-2272-4876-94a7-587dacb51cb4" />
 <img width="594" height="824" alt="Screenshot 2026-06-06 113650" src="https://github.com/user-attachments/assets/5cbf6d9c-e6f4-4b76-afe5-05758599a2e6" />
 <img width="425" height="389" alt="Screenshot 2026-06-06 113708" src="https://github.com/user-attachments/assets/fef10548-b262-430c-acff-71fd0f7ff50d" />
 
+---
+
+## OUTPUT
+<img width="432" height="887" alt="Screenshot 2026-06-06 115036" src="https://github.com/user-attachments/assets/3d231a0c-8420-4339-8a9d-7a36f3166257" />
+<img width="375" height="829" alt="Screenshot 2026-06-06 115107" src="https://github.com/user-attachments/assets/18db602a-3573-44c1-ae2c-8d3368653dcf" />
+<img width="395" height="791" alt="Screenshot 2026-06-06 115130" src="https://github.com/user-attachments/assets/42a28619-424d-4b38-bbed-d7e6398e268c" />
+<img width="368" height="766" alt="Screenshot 2026-06-06 115154" src="https://github.com/user-attachments/assets/6950b53e-e16f-4e24-a348-f502f96a231d" />
+<img width="398" height="896" alt="Screenshot 2026-06-06 115220" src="https://github.com/user-attachments/assets/0bee255b-0e8c-4ac8-9f08-33d3cf6bd6d0" />
+<img width="299" height="466" alt="Screenshot 2026-06-06 115259" src="https://github.com/user-attachments/assets/870846cd-31ef-4ef0-8d34-6d7177942fc1" />
+<img width="352" height="873" alt="Screenshot 2026-06-06 115335" src="https://github.com/user-attachments/assets/9a989a05-999d-4128-a2f8-694a2063221f" />
+<img width="312" height="359" alt="Screenshot 2026-06-06 115401" src="https://github.com/user-attachments/assets/a73358ec-77b0-4b24-ad56-4ae85d889fba" />
