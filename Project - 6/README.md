@@ -98,8 +98,11 @@ The goal is to provide a simple yet efficient personal journaling solution while
 
 📦 Project-6/
 │
+
 ├── 📄 Project-6.py          ← Main Python Script
+
 │
+
 └── 📄 README.md             ← Project Documentation
 
 ---
