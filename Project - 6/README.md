@@ -4,7 +4,7 @@
 
 ### *Interactive File-Based Journal Management System using Python & OOP*
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.14%2B-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
 ![OOP](https://img.shields.io/badge/OOP-Object%20Oriented%20Programming-FF6F00?style=for-the-badge)
 ![File Handling](https://img.shields.io/badge/File%20Handling-Read%20Write%20Search-4CAF50?style=for-the-badge)
 ![CLI](https://img.shields.io/badge/Console-Interactive%20CLI-9C27B0?style=for-the-badge)
