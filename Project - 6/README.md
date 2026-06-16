@@ -406,6 +406,7 @@ Special thanks to the following learning resources:
 ## 👤 Author
 
 ### Project Developer
+### Gupta Sneha
 
 > *"Every journal entry captures a moment, every line of code preserves it."*
 
