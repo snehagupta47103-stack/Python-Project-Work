@@ -71,7 +71,9 @@
 | 🔍 Module Exploration | View module attributes using dir() |
 | 🖥️ Menu Driven Interface | Easy navigation through options |
 
-# Project Workflow 
+# Project Workflow
+
+<div align="center">
 
 Program Start
       
@@ -82,7 +84,7 @@ Display Main Menu
       │
  ┌────┼────┬────┬────┬────┬────┐
  
- ▼     ▼     ▼     ▼     ▼     ▼
+ ▼    ▼    ▼    ▼    ▼    ▼
 
 Date Math Random UUID File dir()
       
