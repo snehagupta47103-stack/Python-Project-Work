@@ -71,13 +71,13 @@
 | 🔍 Module Exploration | View module attributes using dir() |
 | 🖥️ Menu Driven Interface | Easy navigation through options |
 
-Program Start
+# Project Workflow 
 
+Program Start
       │
       ▼
-      
- Display Main Menu
- 
+
+Display Main Menu
       │
       
  ┌────┼────┬────┬────┬────┬────┐
