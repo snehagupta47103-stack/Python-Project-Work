@@ -74,9 +74,9 @@
 ## 🔄 Project Workflow
 
 ```text
-                           START
-                             │
-                             ▼
+                       START
+                         │
+                         ▼
          ┌─────────────────────────────────┐
          │ Multi-Utility Toolkit Main Menu │
          └───────────────┬─────────────────┘
@@ -84,7 +84,7 @@
                          ▼
                Choose Required Module
                          │
-     ┌─────────┬─────────┬─────────┬─────────┬─────────┬─────────┐
+     ┌─────────┬─────────┬─────────┬─────────┬─────────┬
      ▼         ▼         ▼         ▼         ▼         ▼
  Datetime    Math      Random     UUID      File      dir()
  Module      Module    Module    Module   Module    Explorer
@@ -101,13 +101,13 @@
                  Return To Menu
                          │
                          ▼
-                    Exit ? 
-                   ┌───┴───┐
-                   │       │
-                  No      Yes
-                   │       │
-                   ▼       ▼
-                Menu     END
+                       Exit ? 
+                     ┌───┴───┐
+                     │       │
+                    No      Yes
+                     │       │
+                     ▼       ▼
+                   Menu     END
 ```
  
 
