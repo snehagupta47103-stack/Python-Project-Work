@@ -71,35 +71,44 @@
 | 🔍 Module Exploration | View module attributes using dir() |
 | 🖥️ Menu Driven Interface | Easy navigation through options |
 
-# Project Workflow
+## 🔄 Project Workflow
 
-<div align="center">
-
-Program Start
-      
-      │
-      ▼
-Display Main Menu
-      
-      │
- ┌────┼────┬────┬────┬────┬────┐
- 
- ▼    ▼    ▼    ▼    ▼    ▼
-
-Date Math Random UUID File dir()
-      
-      │
-      ▼
- Execute Operation
-      
-      │
-      ▼
- Return To Menu
-      
-      │
-      ▼
- 
- Exit
+```text
+                           START
+                             │
+                             ▼
+         ┌─────────────────────────────────┐
+         │ Multi-Utility Toolkit Main Menu │
+         └───────────────┬─────────────────┘
+                         │
+                         ▼
+               Choose Required Module
+                         │
+     ┌─────────┬─────────┬─────────┬─────────┬─────────┬─────────┐
+     ▼         ▼         ▼         ▼         ▼         ▼
+ Datetime    Math      Random     UUID      File      dir()
+ Module      Module    Module    Module   Module    Explorer
+     │         │         │         │         │         │
+     └─────────┴─────────┴─────────┴─────────┴─────────┘
+                         │
+                         ▼
+                Process User Request
+                         │
+                         ▼
+                 Display Result
+                         │
+                         ▼
+                 Return To Menu
+                         │
+                         ▼
+                    Exit ? 
+                   ┌───┴───┐
+                   │       │
+                  No      Yes
+                   │       │
+                   ▼       ▼
+                Menu     END
+```
  
 
  # OUTPUT
