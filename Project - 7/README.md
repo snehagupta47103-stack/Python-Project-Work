@@ -78,19 +78,25 @@ Program Start
       │
       ▼
 Display Main Menu
+      
       │
  ┌────┼────┬────┬────┬────┬────┐
  ▼    ▼    ▼    ▼    ▼    ▼
 Date Math Random UUID File dir()
+      
       │
       ▼
  Execute Operation
+      
       │
       ▼
  Return To Menu
+      
       │
       ▼
+ 
  Exit
+ 
 
  # OUTPUT
 
