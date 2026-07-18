@@ -2,23 +2,15 @@ import os
 from datetime import datetime
 class JournalManager:
     def __init__(self, filepath="journal.txt"):
-        """
-        Initialize the JournalManager with the default filename 'journal.txt'.
-        """
         self.filepath = filepath
 
     def add_entry(self):
-        """
-        Requirement 1: Add a New Entry
-        Appends a new journal entry with a timestamp. Creates the file if it doesn't exist ('a' mode).
-        """
         entry_text = input("\nEnter your journal entry:\n")
         
         # Current timestamp format: [YYYY-MM-DD HH:MM:SS]
         timestamp = datetime.now().strftime("[%Y-%m-%d %H:%M:%S]")
         
         try:
-            # Using 'a' mode to append and handle automatic file creation
             with open(self.filepath, "a", encoding="utf-8") as file:
                 file.write(f"{timestamp}\n{entry_text}\n\n")
             print("\nEntry added successfully!")
@@ -28,10 +20,6 @@ class JournalManager:
             print(f"\nAn unexpected error occurred: {e}")
 
     def view_all_entries(self):
-        """
-        Requirement 2: View All Entries
-        Displays all entries from the file. Handles FileNotFoundError gracefully.
-        """
         if not os.path.exists(self.filepath):
             print("\nError: The journal file does not exist. Please add a new entry first.")
             return
@@ -52,10 +40,6 @@ class JournalManager:
             print("\nError: Permission denied. Cannot read the file.")
 
     def search_entry(self):
-        """
-        Requirement 3: Search for an Entry
-        Searches the file for a specific keyword or date.
-        """
         if not os.path.exists(self.filepath):
             print("\nNo journal entries found. Start by adding a new entry!")
             return
@@ -64,7 +48,6 @@ class JournalManager:
         
         try:
             with open(self.filepath, "r", encoding="utf-8") as file:
-                # Entries are separated by double newlines '\n\n'
                 content = file.read()
                 entries = content.strip().split("\n\n")
             
@@ -87,10 +70,6 @@ class JournalManager:
             print(f"\nAn error occurred while searching: {e}")
 
     def delete_all_entries(self):
-        """
-        Requirement 4: Delete All Entries
-        Clears the journal by deleting the file after user confirmation.
-        """
         if not os.path.exists(self.filepath):
             print("\nOutput (If the file does not exist):")
             print("No journal entries to delete.")
@@ -112,7 +91,6 @@ class JournalManager:
 
 
 def main():
-    # Creating object of JournalManager class (OOP Principle)
     manager = JournalManager()
 
     while True:
