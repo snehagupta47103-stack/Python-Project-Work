@@ -293,7 +293,7 @@ obj.menu()
 <img width="1004" height="643" alt="Screenshot 2026-07-23 142852" src="https://github.com/user-attachments/assets/f341c30b-fb98-48b0-9812-b2c89b6324a3" />
 <img width="1046" height="368" alt="Screenshot 2026-07-23 142943" src="https://github.com/user-attachments/assets/4da10814-4ef9-4168-971c-cc5ddaaf4390" />
 
-- The project provides:
+--> The project provides:
 
 - Interactive Console Menu
 - Dataset Exploration
