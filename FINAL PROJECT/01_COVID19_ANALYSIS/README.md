@@ -84,14 +84,13 @@ FINAL PROJECT/
     ├── who_covid_19_sit_rep_time_series.csv
     └── README.md
 
-
+```
 ---
 
-
-
-## 🔄 Project Workflow
+🔄 Project Workflow
 
 ```text
+
 +-------------------------------------------------------+
 |                 Start Project                         |
 +-------------------------------------------------------+
@@ -131,6 +130,7 @@ FINAL PROJECT/
 |              Print Findings & Insights                |
 +-------------------------------------------------------+
 
+```
 
 ---
 
