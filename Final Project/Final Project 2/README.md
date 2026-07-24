@@ -269,7 +269,7 @@ plt.show()
 <img width="1357" height="719" alt="Screenshot 2026-07-24 212344" src="https://github.com/user-attachments/assets/dd4ff182-d97c-49c9-8221-ebf6bbbce576" />
 
 ---
-#### 💰 Impact of Economy (GDP per Capita) on Happiness Score
+#### 5. 💰 Impact of Economy (GDP per Capita) on Happiness Score
 
 Displays the relationship between economic output per person and overall happiness score, categorized by world region.
 * **Chart Type:** Scatter Plot (Seaborn `scatterplot` with region-based `hue`)
