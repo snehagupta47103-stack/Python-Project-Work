@@ -77,13 +77,12 @@ During pandemic outbreaks, public health organizations require continuous monito
 
 ## 🏗️ Project Structure
 
-📦 FINAL PROJECT/
-│
-└── 📁 01_COVID19_Analysis/
-│
-├── 📄 COVID19_Analysis.ipynb           ← Main Jupyter Notebook
-├── 📄 who_covid_19_sit_rep_time_series.csv ← WHO Time-Series Dataset
-└── 📄 README.md                        ← Project Documentation
+```text
+FINAL PROJECT/
+└── 01_COVID19_Analysis/
+    ├── COVID19_Analysis.ipynb
+    ├── who_covid_19_sit_rep_time_series.csv
+    └── README.md
 
 
 ---
