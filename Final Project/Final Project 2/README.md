@@ -125,7 +125,7 @@ world-happiness-analysis/
 
 ### 📊 Exploratory Data Analysis & Visualizations
 
-#### 📈 Top 10 Happiest Countries (2015)
+#### 1. 📈 Top 10 Happiest Countries (2015)
 
 Displays the top 10 nations leading the global rankings in overall happiness and well-being.
 * **Chart Type:** Horizontal Bar Plot
@@ -154,6 +154,151 @@ plt.tight_layout()
 plt.show()
 ```
 <img width="1327" height="686" alt="Screenshot 2026-07-24 212119" src="https://github.com/user-attachments/assets/a75a9bc0-72a0-40ef-b816-28ab78b42eb5" />
+
+---
+
+#### 2. 📉 Bottom 10 Countries by Happiness Score
+
+Displays the 10 lowest-ranking nations in global subjective well-being for 2015.
+* **Chart Type:** Horizontal Bar Plot (Seaborn `barplot` with `flare` palette)
+* **Key Metric:** `Happiness Score` (Scale: 0 – 5) aggregated by `Country`
+* **Insight:** Highlights severe socioeconomic and governance challenges in lower-ranked nations, where happiness scores drop significantly below 3.5, showing a stark contrast to global averages.
+
+#### 🛠️ Python Implementation
+```python
+# Extracting 10 countries with lowest happiness scores
+bottom10 = df.nsmallest(10, 'Happiness Score')
+
+# Generating Seaborn horizontal bar chart
+plt.figure(figsize=(12, 6))
+sns.barplot(
+    data=bottom10, 
+    x='Happiness Score', 
+    y='Country', 
+    hue='Country', 
+    palette='flare', 
+    legend=False
+)
+
+plt.title('Bottom 10 Countries by Happiness Score', fontsize=14, fontweight='bold')
+plt.xlabel('Happiness Score')
+plt.ylabel('Country')
+plt.xlim(0, 5)
+
+# Displaying data labels on bars
+for index, value in enumerate(bottom10['Happiness Score']):
+    plt.text(value + 0.1, index, f'{value:.2f}', color='black', va='center')
+
+plt.tight_layout()
+plt.show()
+```
+<img width="1388" height="685" alt="Screenshot 2026-07-24 212201" src="https://github.com/user-attachments/assets/a7ac3465-d3f1-4c70-bd58-7e733358245f" />
+
+---
+#### 3. 🌍 Average Happiness Score by World Region
+
+Displays the regional comparison of overall subjective well-being across different geographic zones in 2015.
+* **Chart Type:** Horizontal Bar Plot (Seaborn `barplot` with `viridis` palette)
+* **Key Metric:** Mean `Happiness Score` grouped by `Region`
+* **Insight:** Demonstrates clear geographic disparities, where regions like Australia/New Zealand, North America, and Western Europe lead with the highest regional averages, while Sub-Saharan Africa and Southern Asia record the lowest scores overall.
+
+#### 🛠️ Python Implementation
+```python
+# Grouping data by Region and calculating average Happiness Score
+region_avg = df.groupby('Region')['Happiness Score'].mean().sort_values(ascending=False).reset_index()
+
+# Generating Seaborn horizontal bar chart
+plt.figure(figsize=(12, 6))
+sns.barplot(
+    data=region_avg, 
+    x='Happiness Score', 
+    y='Region', 
+    hue='Region', 
+    palette='viridis', 
+    legend=False
+)
+
+plt.title('Average Happiness Score by World Region', fontsize=14, fontweight='bold')
+plt.xlabel('Average Happiness Score')
+plt.ylabel('Region')
+
+plt.tight_layout()
+plt.show()
+```
+<img width="1393" height="628" alt="Screenshot 2026-07-24 212230" src="https://github.com/user-attachments/assets/68d5ac3b-da9e-4bf5-b6a9-b9aa92e39160" />
+
+---
+
+#### 4. 🔗 Correlation Heatmap of Happiness Factors
+
+Displays the linear correlation between overall happiness scores and key socioeconomic indicators.
+* **Chart Type:** Heatmap (Seaborn `heatmap` with `Blues` palette)
+* **Key Metric:** Pearson Correlation Matrix (`corr()`) across key numeric factors
+* **Insight:** Reveals a strong positive correlation between `Happiness Score`, `Economy (GDP per Capita)`, and `Health (Life Expectancy)`, indicating that economic prosperity and physical well-being are the primary drivers of global happiness.
+
+#### 🛠️ Python Implementation
+```python
+# Selecting key numerical factors for correlation analysis
+factors = [
+    'Happiness Score', 
+    'Economy (GDP per Capita)', 
+    'Family', 
+    'Health (Life Expectancy)', 
+    'Freedom', 
+    'Trust (Government Corruption)', 
+    'Generosity'
+]
+
+# Computing correlation matrix
+corr_matrix = df[factors].corr()
+
+# Generating Seaborn heatmap
+plt.figure(figsize=(10, 4))
+sns.heatmap(
+    corr_matrix, 
+    annot=True, 
+    cmap='Blues', 
+    fmt=".2f", 
+    linewidths=0.5
+)
+
+plt.title('Correlation Heatmap of Happiness Factors', fontsize=14, fontweight='bold')
+plt.tight_layout()
+plt.show()
+```
+<img width="1357" height="719" alt="Screenshot 2026-07-24 212344" src="https://github.com/user-attachments/assets/dd4ff182-d97c-49c9-8221-ebf6bbbce576" />
+
+---
+#### 💰 Impact of Economy (GDP per Capita) on Happiness Score
+
+Displays the relationship between economic output per person and overall happiness score, categorized by world region.
+* **Chart Type:** Scatter Plot (Seaborn `scatterplot` with region-based `hue`)
+* **Key Metric:** `Economy (GDP per Capita)` vs. `Happiness Score` hue-mapped by `Region`
+* **Insight:** Displays a clear upward linear trend showing that countries with higher GDP per capita generally achieve higher happiness scores, with distinct regional clustering visible across different economic tiers.
+
+#### 🛠️ Python Implementation
+```python
+# Generating Seaborn scatter plot
+plt.figure(figsize=(10, 5))
+sns.scatterplot(
+    data=df, 
+    x='Economy (GDP per Capita)', 
+    y='Happiness Score', 
+    hue='Region', 
+    s=100, 
+    alpha=0.8
+)
+
+plt.title('Impact of Economy (GDP per Capita) on Happiness Score', fontsize=14, fontweight='bold')
+plt.xlabel('Economy (GDP per Capita)')
+plt.ylabel('Happiness Score')
+
+# Adjusting legend position to keep visual clean
+plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
+plt.tight_layout()
+plt.show()
+```
+<img width="1325" height="616" alt="Screenshot 2026-07-24 212438" src="https://github.com/user-attachments/assets/332ff730-5c8c-4afb-a369-d94dccb031bb" />
 
 ---
 ## 🛠️ Tech Stack
