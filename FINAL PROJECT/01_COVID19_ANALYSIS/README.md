@@ -87,9 +87,11 @@ FINAL PROJECT/
 
 ---
 
+
+
 ## 🔄 Project Workflow
 
-
+```text
 +-------------------------------------------------------+
 |                 Start Project                         |
 +-------------------------------------------------------+
@@ -129,7 +131,9 @@ FINAL PROJECT/
 |              Print Findings & Insights                |
 +-------------------------------------------------------+
 
+
 ---
+
 
 ## 📊 Exploratory Data Analysis & Visualizations
 
