@@ -1,0 +1,4 @@
+OrderID,Date,Product,Category,Region,Sales,Profit,Quantity,Discount,Year
+2001,01-03-2025,Tablet,Electronics,North,28000,4500,2,10,2024
+2002,03-03-2025,Office Chair,Furniture,South,6500,1200,1,5,2025
+2003,05-03-2025,Water Bottle,Accessories,West,800,180,12,0,2026
