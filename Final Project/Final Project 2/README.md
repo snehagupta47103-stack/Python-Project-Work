@@ -123,40 +123,38 @@ world-happiness-analysis/
 ```
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+### 📊 Exploratory Data Analysis & Visualizations
 
-### 📝 1. Data Loading & Inspection
+#### 📈 Top 10 Happiest Countries (2015)
 
-The initial step involves loading the dataset and verifying structural properties.
+Displays the top 10 nations leading the global rankings in overall happiness and well-being.
+* **Chart Type:** Horizontal Bar Plot
+* **Key Metric:** `Happiness Score` (Scale: 0 – 8) aggregated by `Country`
+* **Insight:** Highlights that top-ranking countries (led by Switzerland, Iceland, and Denmark) consistently maintain high happiness scores above 7.5, driven primarily by strong economic stability (GDP per Capita), social support networks, and high health/life expectancy.
 
+#### 🛠️ Python Implementation
 ```python
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+# Sorting dataset to get top 10 happiest countries
+top10 = df.sort_values(by='Happiness Score', ascending=False).head(10)
 
-df = pd.read_csv('2015.csv')
-df.head()
+# Generating horizontal bar chart
+plt.figure(figsize=(10, 6))
+plt.barh(top10['Country'], top10['Happiness Score'], color='#2ecc71')
+plt.title('Top 10 Happiest Countries in the World (2015)', fontsize=14, fontweight='bold')
+plt.xlabel('Happiness Score')
+plt.ylabel('Country')
+plt.xlim(0, 8)
+plt.gca().invert_yaxis()  # Rank #1 ko sabse upar dikhane ke liye
+
+# Adding data labels on bars
+for index, value in enumerate(top10['Happiness Score']):
+    plt.text(value + 0.1, index, f'{value:.2f}', color='black', va='center')
+
+plt.tight_layout()
+plt.show()
 ```
----
+<img width="1327" height="686" alt="Screenshot 2026-07-24 212119" src="https://github.com/user-attachments/assets/a75a9bc0-72a0-40ef-b816-28ab78b42eb5" />
 
-### 🔍 2. Dataset Information & Quality Check
-Evaluating missing records and column data types ensures robust statistical inference.
-
-```Python
-print("--- Dataset Info ---")
-print(df.info())
-
-print("\n--- Missing Values Count ---")
-print(df.isnull().sum())
-```
----
-
-### 📈 3. Statistical Summary
-Summary statistics provide insights into central tendencies, variability, and ranges.
-
-```Python
-df.describe()
-```
 ---
 ## 🛠️ Tech Stack
 
