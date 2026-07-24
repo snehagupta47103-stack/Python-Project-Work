@@ -143,6 +143,8 @@ FINAL PROJECT/
 - **Chart Type:** Line Plot (Red)
 - **Insight:** Highlights exponential growth during the early acceleration phases of the pandemic outbreak.
 
+<img width="1228" height="619" alt="Screenshot 2026-07-24 151520" src="https://github.com/user-attachments/assets/aa9c95cc-e479-4e82-b159-11b0ac83c959" />
+
 ---
 
 ### 🏛️ 2. Top 5 Most Affected Countries
@@ -151,6 +153,8 @@ FINAL PROJECT/
 - **Chart Type:** Vertical Bar Chart (Purple)
 - **Insight:** Pinpoints primary outbreak centers led by initial transmission epicenters.
 
+<img width="1262" height="730" alt="Screenshot 2026-07-24 151600" src="https://github.com/user-attachments/assets/9426a278-51c6-42cb-ace2-de5ac7af4857" />
+
 ---
 
 ### 🌍 3. WHO Region-Wise Distribution
@@ -158,6 +162,8 @@ FINAL PROJECT/
 
 - **Chart Type:** Vertical Bar Chart (Orange)
 - **Insight:** Highlights severe outbreak burdens across specific continental divisions.
+
+<img width="1171" height="721" alt="Screenshot 2026-07-24 151827" src="https://github.com/user-attachments/assets/7c82d6ba-9326-4162-a8ee-cba5ceaf09c1" />
 
 ---
 
