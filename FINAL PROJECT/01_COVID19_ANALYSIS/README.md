@@ -77,7 +77,6 @@ During pandemic outbreaks, public health organizations require continuous monito
 
 ## 🏗️ Project Structure
 
-```text
 FINAL PROJECT/
 └── 01_COVID19_Analysis/
     ├── COVID19_Analysis.ipynb
@@ -89,7 +88,7 @@ FINAL PROJECT/
 
 ## 🔄 Project Workflow
 
-```text
+
 +-------------------------------------------------------+
 |                 Start Project                         |
 +-------------------------------------------------------+
