@@ -1,18 +1,21 @@
-<div align="center">
+# 🦠 COVID-19 Data Analysis & Visualization
 
-# -- ! COVID-19 Data Analysis & Global Tracker ! --
-### *Interactive Exploratory Data Analysis & Time-Series Tracking of Global Pandemic Growth*
+## Exploratory Data Analysis (EDA) of COVID-19 Global Dataset
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557c?style=for-the-badge&logo=python&logoColor=white)](https://matplotlib.org/)
-[![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://seaborn.pydata.org/)
+<p align="center">
 
-<br/>
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C?style=for-the-badge&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-4C72B0?style=for-the-badge)
 
-> *"Data is the compass in navigating global health emergencies — transforming raw metrics into lifesaving insights."*
+</p>
 
-</div>
+<p align="center">
+
+*"Data helps us understand the spread of diseases and supports informed public health decisions."*
+
+</p>
 
 ---
 
