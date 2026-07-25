@@ -1,21 +1,17 @@
+<div align = center>
+    
 # 🦠 COVID-19 Data Analysis & Visualization
 
 ## Exploratory Data Analysis (EDA) of COVID-19 Global Dataset
-
-<p align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C?style=for-the-badge&logo=python&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-4C72B0?style=for-the-badge)
 
-</p>
-
-<p align="center">
-
 *"Data helps us understand the spread of diseases and supports informed public health decisions."*
 
-</p>
+</div>
 
 ---
 
