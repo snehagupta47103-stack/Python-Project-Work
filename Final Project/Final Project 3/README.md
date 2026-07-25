@@ -1,6 +1,17 @@
+<div align = center>
+  
 # 🚢 Titanic Passenger Data Analysis & Visualization
 
-> A professional data analysis project built using **Python, Pandas, NumPy, Matplotlib, and Seaborn** to explore the Titanic passenger dataset. This project focuses on data cleaning, exploratory data analysis (EDA), statistical insights, and visualizations to better understand passenger demographics and travel information.
+## Exploratory Data Analysis (EDA) of Titanic Passenger Dataset
+
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C?style=for-the-badge&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-4C72B0?style=for-the-badge)
+
+*"Every dataset tells a story. This project explores passenger demographics, travel classes, fares, and boarding information using exploratory data analysis."*
+
+</div>
 
 ---
 
